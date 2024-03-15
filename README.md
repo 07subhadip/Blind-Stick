@@ -16,12 +16,22 @@ This configuration establishes communication between the TFMINI Lidar sensor and
 
 ## MPU6050 with Arduino
 
-1. **SDA - PIN A4:** Connect the SDA of MPU6050 to PIN A4 on Arduino
-2. **SCL - PIN A5:** Connect the SCL of MPU6050 to PIN A5 on Arduino
-3. **VCC(5V):** Connect the VCC PIN to 5V Arduino PIN
-4. **GND:** Connect the GND PIN to GND Arduino PIN
+1. **SDA - PIN A4:** Connect the SDA of MPU6050 to PIN A4 on Arduino.
+2. **SCL - PIN A5:** Connect the SCL of MPU6050 to PIN A5 on Arduino.
+3. **VCC(5V):** Connect the VCC PIN to 5V Arduino PIN.
+4. **GND:** Connect the GND PIN to GND Arduino PIN.
 
 ## BUZZER with Arduino
 
-1. **GND (Black):** Connect the GND PIN to GND Arduino PIN
-2. **VCC (Red) - PIN~3:** Connect the VCC to PIN~3 on Arduino
+1. **GND (Black):** Connect the GND PIN to GND Arduino PIN.
+2. **VCC (Red) - PIN~3:** Connect the VCC to PIN~3 on Arduino.
+
+## TFMini and Buzzer Integration
+
+1. Adding the Buzzer code snippets at the end of the TFMini code pallate.
+2. Integration of the PIN remain same as the previous.
+
+
+## WORK TO BE DONE
+
+1. Adding a Wheel with the Servo Motor to change the path direction according to the Obstacle detection.
