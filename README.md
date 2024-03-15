@@ -26,6 +26,12 @@ This configuration establishes communication between the TFMINI Lidar sensor and
 1. **GND (Black):** Connect the GND PIN to GND Arduino PIN.
 2. **VCC (Red) - PIN~3:** Connect the VCC to PIN~3 on Arduino.
 
+## Servo Motor with Arduino
+
+1. **VCC - 5V (Red):** Connect the VCC to the 5V PIN on Arduino.
+2. **GND (Black):** Connect the GND to the GND on Arduino.
+3. **PWM - PIN~9 (Orange):** Connect the PWM to the PIN~9 on Arduino.
+
 ## TFMini and Buzzer Integration
 
 1. Adding the Buzzer code snippets at the end of the TFMini code pallate.
@@ -34,4 +40,7 @@ This configuration establishes communication between the TFMINI Lidar sensor and
 
 ## WORK TO BE DONE
 
-1. Adding a Wheel with the Servo Motor to change the path direction according to the Obstacle detection.
+1. **Include Navigation :** Adding a Wheel with the Servo Motor to change the path direction according to the Obstacle detection.
+2. **Increase Performance :** Adding 3-4 TFMini sensors to get the height of the obstacle in fornt of the Sensors.
+3. **Integration :** Integrate the Accelometer/Gyro Sensor with the Buzzer to calculate the distance of any stair.
+4. **Replacement of Microcontroller :** Use Arduino Nano instead of Arduino UNO R3 to minimize the space.
